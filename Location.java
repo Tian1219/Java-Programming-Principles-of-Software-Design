@@ -174,7 +174,7 @@ public class Location {
     /**
      * Converts a coordinate to a String representation. The outputType
      * may be one of FORMAT_DEGREES, FORMAT_MINUTES, or FORMAT_SECONDS.
-     * The coordinate must be a valid double between -180.0 and 180.0.
+     * The coordinate must be a valid double between -180.0 and 180.0.distanceTo
      *
      * @throws IllegalArgumentException if coordinate is less than
      * -180.0, greater than 180.0, or is not a number.
