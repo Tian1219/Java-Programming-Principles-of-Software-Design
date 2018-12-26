@@ -45,6 +45,12 @@ public class EarthQuakeParser {
                     NodeList t1 = elem.getElementsByTagName("georss:point");
                     NodeList t2 = elem.getElementsByTagName("title");
                     NodeList t3 = elem.getElementsByTagName("georss:elev");
+                    NodeList t2 = elem.getElementsByTagName("title");
+                    NodeList t3 = elem.getElementsByTagName("georss:elev
+                            NodeList t2 = elem.getElementsByTagName("title");
+                    NodeList t3 = elem.getElementsByTagName("georss:elev
+                            NodeList t2 = elem.getElementsByTagName("title");
+                    NodeList t3 = elem.getElementsByTagName("georss:elev
                     double lat = 0.0, lon = 0.0, depth = 0.0;
                     String title = "NO INFORMATION";
                     double mag = 0.0;
