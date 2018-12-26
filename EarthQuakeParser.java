@@ -114,7 +114,9 @@ public class EarthQuakeParser {
         //test1.bigQuakes();
         //test1.closeToMe();
         //test1.quakesOfDepth();
-        test1.quakeByPhrase();
+        //test1.quakeByPhrase();
+        ClosestQuakes test2 = new ClosestQuakes();
+       test2.findClosestQuakes();
     }
     
 }
