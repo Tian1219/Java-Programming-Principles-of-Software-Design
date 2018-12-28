@@ -110,6 +110,8 @@ public class EarthQuakeParser {
         }
         System.out.println("# quakes = "+list.size());
 
+        EarthQuakeClient2 test1 = new EarthQuakeClient2();
+         test1.testMatchAllFilter2();
     }
     
 }
