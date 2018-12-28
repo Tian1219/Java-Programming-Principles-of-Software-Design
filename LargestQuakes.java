@@ -29,11 +29,11 @@ public class LargestQuakes {
     }
 
 
-    public ArrayList<QuakeEntry> getLargest (ArrayList<QuakeEntry>data, int howMany){
-        ArrayList<QuakeEntry > dataRemovale = data;
+    public ArrayList<QuakeEntry> getLargest(ArrayList<QuakeEntry> data, int howMany) {
+        ArrayList<QuakeEntry> dataRemovale = data;
         ArrayList<QuakeEntry> largest = new ArrayList<QuakeEntry>();
 
-        while ((largest.size()< howMany) || dataRemovale.size()>0){
+        while ((largest.size() < howMany) || dataRemovale.size() > 0) {
 
             int index = indexOfLargest(dataRemovale);
             largest.add(dataRemovale.get(index));
@@ -41,7 +41,7 @@ public class LargestQuakes {
 
         }
 
-            return largest;
+        return largest;
 
 
     }
